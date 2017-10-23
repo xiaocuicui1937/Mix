@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dogger</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_camera_take">点击拍照</string>
+    <string name="dialog_camera_select">选择照片</string>
+    <string name="camera_pick_style">选择照片的方式</string>
+</resources>
