@@ -9,7 +9,7 @@ import android.view.View;
 import com.sa.all_cui.mix_core.app.AccountManager;
 import com.sa.all_cui.mix_core.app.IUserChecker;
 import com.sa.all_cui.mix_core.delegate.DoggerDelegate;
-import com.sa.all_cui.mix_core.utils.storage.DoggerPrefrence;
+import com.sa.all_cui.mix_core.utils.storage.shareprefrence.DoggerPrefrence;
 import com.sa.all_cui.mix_core.utils.timer.BaseTimerTask;
 import com.sa.all_cui.mix_core.utils.timer.ITimerListener;
 import com.sa.all_cui.mix_ec.R;

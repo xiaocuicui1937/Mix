@@ -15,7 +15,7 @@ import com.sa.all_cui.mix_core.delegate.DoggerDelegate;
 import com.sa.all_cui.mix_core.utils.callback.CallbackManager;
 import com.sa.all_cui.mix_core.utils.callback.CallbackType;
 import com.sa.all_cui.mix_core.utils.callback.IGlabolCallback;
-import com.sa.all_cui.mix_core.utils.storage.DoggerPrefrence;
+import com.sa.all_cui.mix_core.utils.storage.shareprefrence.DoggerPrefrence;
 import com.sa.all_cui.mix_ec.R;
 import com.sa.all_cui.mix_ec.main.personal.list.ListBean;
 import com.sa.all_cui.mix_ui.date.DateDialogUtil;

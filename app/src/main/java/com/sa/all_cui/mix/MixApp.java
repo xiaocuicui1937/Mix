@@ -27,7 +27,6 @@ public class MixApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-
         //初始化配置
         MIX.init(this)
                 .withHostApi("http://api.jcodecraeer.com/")
@@ -56,12 +55,8 @@ public class MixApp extends Application {
         //开始LeanCloud的调试模式
         AVOSCloud.setDebugLogEnabled(true);
         AVAnalytics.enableCrashReport(this,true);
-        mixApp = this;
     }
 
-    public static MixApp getMixApp(){
-        return mixApp;
-    }
 
 
 

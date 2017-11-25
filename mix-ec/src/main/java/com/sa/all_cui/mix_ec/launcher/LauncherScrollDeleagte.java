@@ -10,7 +10,7 @@ import com.bigkoo.convenientbanner.listener.OnItemClickListener;
 import com.sa.all_cui.mix_core.app.AccountManager;
 import com.sa.all_cui.mix_core.app.IUserChecker;
 import com.sa.all_cui.mix_core.delegate.DoggerDelegate;
-import com.sa.all_cui.mix_core.utils.storage.DoggerPrefrence;
+import com.sa.all_cui.mix_core.utils.storage.shareprefrence.DoggerPrefrence;
 import com.sa.all_cui.mix_ec.R;
 import com.sa.all_cui.mix_ui.launcher.ILauncherListener;
 import com.sa.all_cui.mix_ui.launcher.LauncherHolderCreater;

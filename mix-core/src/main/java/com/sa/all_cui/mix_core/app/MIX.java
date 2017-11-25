@@ -17,7 +17,7 @@ public final class MIX {
         return Configurator.getInstance();
     }
 
-    public static Configurator getConfigurator(){
+    private static Configurator getConfigurator(){
         return Configurator.getInstance();
     }
 

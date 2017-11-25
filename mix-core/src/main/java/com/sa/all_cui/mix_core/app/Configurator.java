@@ -1,6 +1,7 @@
 package com.sa.all_cui.mix_core.app;
 
 import android.app.Application;
+import android.content.Context;
 import android.os.Handler;
 import android.support.annotation.NonNull;
 
@@ -9,6 +10,7 @@ import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
 import com.sa.all_cui.mix_core.delegate.web.event.Event;
 import com.sa.all_cui.mix_core.delegate.web.event.EventManager;
+import com.sa.all_cui.mix_core.screenfit.ScreenFitHelper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -44,10 +46,11 @@ public class Configurator {
 
     //配置完成
     public final void configure() {
-        initIcon();
         DOGGER_CONFIGE.put(ConfigKeys.CONFIG_READY, true);
-        Utils.init((Application) MIX.getContext().getApplicationContext());
-
+        Context context = MIX.getContext();
+        initIcon();
+        Utils.init((Application)context);
+        ScreenFitHelper.create((Application) context).activate();
     }
 
     private void initIcon() {

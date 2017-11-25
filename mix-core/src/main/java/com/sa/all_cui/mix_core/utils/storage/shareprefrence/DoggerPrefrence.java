@@ -1,4 +1,4 @@
-package com.sa.all_cui.mix_core.utils.storage;
+package com.sa.all_cui.mix_core.utils.storage.shareprefrence;
 
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;

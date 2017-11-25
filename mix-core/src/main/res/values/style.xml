@@ -21,4 +21,17 @@
         <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
         <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
     </style>
+    <!--ClearText的style-->
+    <style name="ClearTextStyleGreen">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:background">@drawable/bg_clear_green</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+   <style name="ClearTextStyleGray" parent="ClearTextStyleGreen">
+       <item name="android:background">@drawable/bg_clear_gray</item>
+   </style>
 </resources>

@@ -16,9 +16,10 @@ import java.util.ArrayList;
  * Created by all-cui on 2017/8/12.
  */
 
+@SuppressWarnings("WeakerAccess")
 public class DoggerLoader {
 
-    private static final int LOADER_SIZE_SCALE = 8;//默认的缩放比是8倍
+    private static final int LOADER_SIZE_SCALE = 6;//默认的缩放比是8倍
 
     private static final ArrayList<AppCompatDialog> LOADERS = new ArrayList<>();
 
@@ -30,10 +31,8 @@ public class DoggerLoader {
         final AppCompatDialog dialog = new AppCompatDialog(context, R.style.dialog);
         AVLoadingIndicatorView avLoadingIndicatorView = LoaderCreator.create(context,type);
         dialog.setContentView(avLoadingIndicatorView);
-
         final int width = DimenUtil.getScreenWidth();
         final int height = DimenUtil.getScreenHeight();
-
         final Window dialogWindow = dialog.getWindow();
         if (dialogWindow != null){
             //获取属性对象
